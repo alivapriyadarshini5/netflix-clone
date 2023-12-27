@@ -83,16 +83,16 @@ Ensure you have the following tools installed:
 
 ## Technologies Used 💻
 
-- MongoDB
-- Prisma
-- Tailwind CSS
-- Next.js
-- Next Auth
-- TypeScript
-- Vercel
-- Git
-- VS Code
-- NPM
+- [MongoDB](https://www.mongodb.com)
+- [Prisma](https://prisma.io)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vercel](https://vercel.com)
+- [Git](https://git-scm.com)
+- [VS Code](https://code.visualstudio.com)
+- [NPM](https://www.npmjs.com)
+- [GitHub](https://github.com)
 
 ## Contributing 🤝
 
@@ -106,8 +106,12 @@ Ensure you have the following tools installed:
 
 ## License 📄
 
-MIT
+This project is licensed under the MIT License.
 
 ## Questions ❓
 
 If you have any questions or suggestions, please reach out to [alivapriyadarshini5](https://github.com/alivapriyadarshini5) on GitHub.
+
+## Thanks 🙏
+
+- [Aliva Priyadarshini](https://github.com/alivapriyadarshini5)
