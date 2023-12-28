@@ -17,9 +17,16 @@ const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
         <p className="text-white text-md md:text-xl h-4">{title}</p>
       </div>
       <div className="grid grid-cols-4 gap-2">
-        {/* {data.map((movie: any) => (
-          <MovieCard key={movie.id} data={movie} />
-        ))} */}
+        {data.map(
+          (movie: {
+            id: string;
+            title: string;
+            thumbnailUrl: string;
+            videoUrl: string;
+          }) => (
+            <MovieCard key={movie.id} data={movie} />
+          )
+        )}
       </div>
     </div>
   );
