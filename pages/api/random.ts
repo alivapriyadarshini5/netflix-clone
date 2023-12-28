@@ -6,6 +6,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  console.log(req);
   if (req.method !== "GET") {
     return res.status(405).end();
   }
@@ -13,6 +14,7 @@ export default async function handler(
     await serverAuth(req);
 
     const movieCount = await prismadb.movie.count();
+    console.log(movieCount);
     const randomIndex = Math.floor(Math.random() * movieCount);
 
     const randomMovie = await prismadb.movie.findMany({

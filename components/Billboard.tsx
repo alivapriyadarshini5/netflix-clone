@@ -1,9 +1,13 @@
 import useBillboard from "@/hooks/useBillboard";
+import useMovieList from "@/hooks/useMovieList";
 import React from "react";
 
 import { AiOutlineInfoCircle } from "react-icons/ai";
 const Billboard = () => {
-  const { data } = useBillboard();
+  const { data, error } = useBillboard();
+  const { data: movies } = useMovieList();
+  console.log(movies);
+
   return (
     <div className="relative h-[56.25vw]">
       <video
